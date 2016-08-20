@@ -1,10 +1,14 @@
 body {
   font-family: sans-serif;
   color: #ff704d;
+  background-color: #ffffe6;
+  padding-left: 175px;
+  padding-right: 175px;
+  text-align: center;
 }
 
 h1 {
-  padding: 10px 310px 10px 310px;
+  text-align: center;
   font-weight: bold;
   text-decoration: overline underline;
 }
@@ -13,17 +17,16 @@ h1 {
   margin-left: 10px;
 }
 
-.sidebar {
-  border: 3px dotted #ffc2b3;
-  padding: 3px;
-  margin: 0px 20px 1px 20px;
-  width: 150px;
-  float:right;
-}
 
 .heading {
   text-align: center;
-  padding: 10px 0px 0px 0px;
+  padding-top: 10px;
+
+}
+
+.heading1 {
+  text-align: center;
+  padding-top: 10px;
 
 }
 
@@ -34,6 +37,7 @@ h1 {
   border: 3px dotted #ffc2b3;
   float: left;
   font-size: 15px;
+  text-align: center;
 }
 
 .column2 {
@@ -43,6 +47,7 @@ h1 {
   border: 3px dotted #ffc2b3;
   float: left;
   font-size: 15px;
+  text-align: center;
 }
 
 .column h3 {
@@ -52,4 +57,34 @@ h1 {
 .column2 h3 {
   color: #ff3300;
   font-size: 30px;
+}
+
+/* ================================================ Media Queries
+================================================= */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #ffe6e6;
+    color: #ff0066;
+    text-align: center;
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    background: #ff3300;
+    color: #FFF;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    width: 1000px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    width: 1000px;
+  }
 }
